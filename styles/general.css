@@ -28,7 +28,11 @@ body {
 main {
   padding: 2rem;
 }
+main section {
+  margin-bottom: 6rem;
+}
 
+/*Business listing section*/
 .business-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -50,10 +54,32 @@ main {
   margin-bottom: 1rem;
 }
 
-/* footer {
-  background: #222;
-  color: #fff;
+
+/* Category section */
+.category-card {
+  background: white;
+  border-top: 50px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 2rem;
+  text-align: center;
+}
+
+.category-list {
+  display: grid;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Footer section */
+footer {
+  background: #fff;
+  color: #222;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
-} */
+}
