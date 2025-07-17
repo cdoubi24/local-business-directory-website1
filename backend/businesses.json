@@ -1,0 +1,39 @@
+[{
+    "id": "2a50bc06-45e1-4b1b-ba8f-73ccf0721125",
+    "name": "Computer Greeks",
+    "category": "Tech",
+    "description": "Your favorite tech in town. Get your devices fixed for a low price.",
+    "contact": {
+      "phone" : "",
+      "email": "",
+      "address": ""
+    },
+    "image": "",
+    "rating": 4.9
+},
+{
+    "id": "a52d1662-5787-4973-bcc9-5f0a45206cb0",
+     "name": "K&G Fashion Superstore",
+    "category": "Tech",
+    "description": "Best, affordable clothing in your local area.",
+    "contact": {
+      "phone" : "",
+      "email": "",
+      "address": ""
+    },
+    "image": "",
+    "rating": 4.0
+},
+{
+    "id": "62c0ca28-98bf-4ea3-8e58-74327a63b198",
+     "name": "Just Be Coffee Roasters",
+    "category": "Food",
+    "description": "Best coffee in town. Locally roasted and ethically sourced.",
+    "contact": {
+      "phone" : "",
+      "email": "",
+      "address": ""
+    },
+    "image": "",
+    "rating": 4.5
+}]
