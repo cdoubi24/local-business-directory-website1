@@ -3,23 +3,41 @@
     "name": "Computer Greeks",
     "category": "Tech",
     "description": "Your favorite tech in town. Get your devices fixed for a low price.",
-    "contact": {
-      "phone" : "",
-      "email": "",
-      "address": ""
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "closed"
     },
-    "image": "",
-    "rating": 4.9
+    "contact": {
+      "phone" : "708-636-3473",
+      "email": "info@computergreeks.com",
+      "address": "12222 S Harlem Ave, Palos Heights, IL"
+    },
+    "image": "images/business-listings/computer-greeks.png",
+    "rating": 4.5
 },
 {
     "id": "a52d1662-5787-4973-bcc9-5f0a45206cb0",
      "name": "K&G Fashion Superstore",
     "category": "Tech",
     "description": "Best, affordable clothing in your local area.",
+    "hours": {
+      "monday": "10:00 AM - 9:00 PM",
+      "tuesday": "10:00 AM - 9:00 PM",
+      "wednesday": "10:00 AM - 9:00 PM",
+      "thursday": "10:00 AM - 9:00 PM",
+      "friday": "10:00 AM - 9:00 PM",
+      "saturday": "10:00 AM - 9:00 PM",
+      "sunday": "11:00 AM - 7:00 PM"
+    },
     "contact": {
-      "phone" : "",
-      "email": "",
-      "address": ""
+      "phone" : "708-418-5707",
+      "email": "customerservice@kgstores.com",
+      "address": "17149 Torrence Ave, Lansing, IL"
     },
     "image": "",
     "rating": 4.0
@@ -29,11 +47,20 @@
      "name": "Just Be Coffee Roasters",
     "category": "Food",
     "description": "Best coffee in town. Locally roasted and ethically sourced.",
-    "contact": {
-      "phone" : "",
-      "email": "",
-      "address": ""
+    "hours": {
+      "monday": "7:00 AM - 3:00 PM",
+      "tuesday": "7:00 AM - 3:00 PM",
+      "wednesday": "7:00 AM - 3:00 PM",
+      "thursday": "7:00 AM - 3:00 PM",
+      "friday": "7:00 AM - 3:00 PM",
+      "saturday": "8:00 AM - 12:00 PM",
+      "sunday": "8:00 AM - 12:00 PM"
     },
-    "image": "",
-    "rating": 4.5
+    "contact": {
+      "phone" : "219-789-8354",
+      "email": "sales@justbe.coffee",
+      "address": "400 Fisher St unit e, Munster, IN"
+    },
+    "image": "images/business-listings/just-be-coffe-roasters.png",
+    "rating": 4.9
 }]
