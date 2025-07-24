@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-image: linear-gradient(90deg, #00c6ff, #478de3);
+  color: whitesmoke;
+  height: 40px;
+}
+
+.back-to-home {
+  display: inline;
+  cursor: pointer;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.back-to-home:hover {
+  text-decoration: underline;
+}
