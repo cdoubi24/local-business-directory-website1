@@ -2,7 +2,10 @@
     "id": "2a50bc06-45e1-4b1b-ba8f-73ccf0721125",
     "name": "Computer Greeks",
     "category": "Tech",
-    "description": "Your favorite tech in town. Get your devices fixed for a low price.",
+    "description": {
+      "brief": "Your favorite tech in town. Get your devices fixed for a low price.",
+      "detail": ""
+    },
     "hours": {
       "monday": "10:00 AM - 6:00 PM",
       "tuesday": "10:00 AM - 6:00 PM",
@@ -17,14 +20,24 @@
       "email": "info@computergreeks.com",
       "address": "12222 S Harlem Ave, Palos Heights, IL"
     },
-    "image": "images/business-listings/computer-greeks.png",
+     "image": {
+      "logo": "images/business-listings/computer-greeks.png",
+      "moreImages" : [
+        "images/business-detail-images/computer-greeks/computer-greeks1.webp",
+        "images/business-detail-images/computer-greeks/computer-greeks2.webp",
+        "images/business-detail-images/computer-greeks/computer-greeks3.webp"
+      ]
+    },
     "rating": 4.5
 },
 {
     "id": "a52d1662-5787-4973-bcc9-5f0a45206cb0",
      "name": "K&G Fashion Superstore",
     "category": "Clothing",
-    "description": "Best, affordable clothing in your local area.",
+    "description": {
+      "brief": "Best, affordable clothing in your local area.",
+      "detail": ""
+    },
     "hours": {
       "monday": "10:00 AM - 9:00 PM",
       "tuesday": "10:00 AM - 9:00 PM",
@@ -39,14 +52,24 @@
       "email": "customerservice@kgstores.com",
       "address": "17149 Torrence Ave, Lansing, IL"
     },
-    "image": "",
+    "image": {
+      "logo": "images/business-listings/k-g-logo-png-transparent.png",
+      "moreImages" : [
+        "images/business-detail-images/k&G-fashion/k-g-store1.webp",
+        "images/business-detail-images/k&G-fashion/k-g-store3.webp",
+        "images/business-detail-images/k&G-fashion/k-g-store4.webp"
+      ]
+    },
     "rating": 4.0
 },
 {
     "id": "62c0ca28-98bf-4ea3-8e58-74327a63b198",
      "name": "Just Be Coffee Roasters",
     "category": "Food",
-    "description": "Best coffee in town. Locally roasted and ethically sourced.",
+    "description": {
+      "brief" : "Best coffee in town. Locally roasted and ethically sourced.",
+      "detail" : "Just Be Coffee Roasters is a specialty coffee roastery based in Munster, Indiana, committed to community, sustainability, and high-quality coffee. They source 100% Arabica, specialty grade beans from around the world including Brazil, Kenya, Colombia, and Honduras and roast them locally. Their offerings include unique single-origin coffees and signature blends, available for retail and wholesale partners. With a focus on ethical sourcing and a zero waste refill and reuse program, Just Be Coffee Roasters aims to make a positive environmental and community impact one cup at a time."
+      },  
     "hours": {
       "monday": "7:00 AM - 3:00 PM",
       "tuesday": "7:00 AM - 3:00 PM",
@@ -61,6 +84,27 @@
       "email": "sales@justbe.coffee",
       "address": "400 Fisher St unit e, Munster, IN"
     },
-    "image": "images/business-listings/just-be-coffe-roasters.png",
-    "rating": 4.9
+    "image": {
+      "logo": "images/business-listings/just-be-coffe-roasters.png",
+      "moreImages" : [
+        "images/business-detail-images/just-be-coffee/just-be-coffe.jpg",
+        "images/business-detail-images/just-be-coffee/just-be-coffee-2.jpg",
+        "images/business-detail-images/just-be-coffee/just-be-coffee-3.webp"
+      ]
+    },
+    "rating": 4.9,
+    "comments": {
+      "Carina Crisan": {
+        "rating": "⭐⭐⭐⭐⭐",
+        "text": "This has become my favorite coffee shop in the area. I have no good reason to choose a coffee selling chain on Calumet over this. The service is relatively quick, the baristas/owners are always very nice, and the coffee is great quality fosr a great price."
+      },
+      "Alyssa Formella": {
+        "rating": "⭐⭐",
+        "text": "I really wanted to love this place, but I just don't. Maybe I received 1 bad drink, or it was simply an off day for the barista. But whatever the case, both of my drinks were awful. My boyfriend is someone who always finishes what he buys, but even he wasnt up for it."
+      },
+      "Adam White": {
+        "rating": "⭐⭐⭐⭐⭐",
+        "text": "I love having a local coffee shop to visit. The staff members are patient, courteous, and attentive.They have a well stocked storefront and a good area of chairs and seating."
+      }  
+    }    
 }]
