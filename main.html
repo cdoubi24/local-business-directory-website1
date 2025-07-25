@@ -4,18 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Local Business Directory</title>
-  <link rel="stylesheet" href="styles/general.css"/>
-  <link rel="stylesheet" href="styles/website-header.css" />
+  <link rel="stylesheet" href="styles/mainPage/general.css"/>
+  <link rel="stylesheet" href="styles/mainPage/website-header.css" />
 </head>
   <body>
     <header id="home">
       <h1>Local Business Directory</h1>
       <nav>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#categories">Categories</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="create-a-profile.html">Create a profile</a></li>
+          <li><a class="nav_link" href="#home">Home</a></li>
+          <li><a class="nav_link" href="#categories">Categories</a></li>
+          <li><a class="nav_link" href="about.html">About</a></li>
+          <li><a class="nav_link" href="create-a-profile.html">Create a profile</a></li>
         </ul>
       </nav>
     </header>
@@ -47,7 +47,7 @@
           </div>
 
           <div class="business-card">
-            <img src="images/business-detail-images/just-be-coffe.jpg" alt="Just Be Coffee" class="card-img">
+            <img src="images/business-listings/just-be-coffe-roasters.png" alt="Just Be Coffee" class="card-img">
             <div class="business-info">
               <div class="business-name-rating">
                 <h3><a href="business-detail.html">Just Be Coffee</a></h3>
@@ -203,19 +203,19 @@
         <div class="category-text">Categories</div>
         <div class="category-layout">
 
-          <a href="categories/tech.html" class="category-card">
+          <a href="categories/tech.html" class="category-card" target="_blank">
             <img src="images/category/tech-category.jpg" alt="Tech Category">
             <div class="category-name">Tech</div>
             <div class="category-info">Click to view your local tech stores.</div>
           </a>
 
-          <a href="categories/clothing.html" class="category-card">
+          <a href="categories/clothing.html" class="category-card" target="_blank">
             <img src="images/category/cloth-category.webp" alt="Clothing Category">
             <div class="category-name">Clothes</div>
             <div class="category-info">Click to view your local clothing stores.</div>
           </a>
 
-          <a href="categories/food.html" class="category-card">
+          <a href="categories/food.html" class="category-card" target="_blank">
             <img src="images/category/food-category.jpg" alt="Food Category">
             <div class="category-name">Food</div>
             <div class="category-info">Click to view your local restaurants.</div>
@@ -223,8 +223,15 @@
 
         </div>
       </section>
-
     </main>
+
+    <div class="arrow">
+      <div class="arrow-container">
+          <a class="image-anchor" href="#home">
+          <img class="arrow-image" src="images/arrow-pointing-up.png">
+          </a>
+      </div>
+    </div>
 
     <footer>
       <p>&copy; 2025 Local Business Directory. All rights reserved.</p>
