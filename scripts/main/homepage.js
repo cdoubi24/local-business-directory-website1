@@ -23,8 +23,11 @@ document.querySelector('.js-business-card-grid').innerHTML = businessHTML;
 
 export const businessCard = document.querySelectorAll('.js-business-detail');
 
-businessCard.forEach(card => {
+businessCard.forEach((card, index) => {
   card.addEventListener('click', () => {
+    const businessId = businesses[index].id;
+    localStorage.setItem("selectedBusinessId", businessId);
     window.location.href = "business-detail.html";
   });
 });
+
