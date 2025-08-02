@@ -5,7 +5,7 @@ export const businesses = [
     category: "Tech",
     description: {
       brief: "Your favorite tech in town. Get your devices fixed for a low price.",
-      detail: ""
+      detail: "Computer Greeks has been proudly serving the community since 1996, with a mission to provide reliable, affordable, and high-quality tech services for everyone — from first-time users to experienced professionals. With over 28 years of experience, we’ve built a reputation for delivering personalized support, honest advice, and dependable repairs at competitive prices. Our team is passionate about technology and dedicated to continuous improvement, always striving to make Computer Greeks even better tomorrow than it is today. Whether you need your device fixed, are looking for quality tech products, or simply want trustworthy guidance, Computer Greeks remains your favorite local destination for all things tech."
     },
     hours: {
       monday: "10:00 AM - 6:00 PM",
@@ -56,7 +56,7 @@ export const businesses = [
     category: "Clothing",
     description: {
       brief: "Best, affordable clothing in your local area.",
-      detail: ""
+      detail: "K&G Fashion Superstore is your trusted destination for stylish, affordable clothing right in your neighborhood. Known for combining quality with unbeatable value, we offer a wide selection of fashion for men, women, and children — all at prices that make it easy to look your best without breaking the bank. Whether you're shopping for business attire, casual wear, or a standout outfit for a special occasion, K&G delivers the latest trends and timeless classics in one convenient place. Our commitment to affordability, variety, and customer satisfaction has made us a go-to fashion hub for the local community."
     },
     hours: {
       monday: "10:00 AM - 9:00 PM",
