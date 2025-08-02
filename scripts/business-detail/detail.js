@@ -57,7 +57,6 @@ if (selectedBusiness) {
 
     <div class="comments-section">
       <h2>Comments</h2>
-      <div class="comment js-comment"></div>
       ${commentHTML}
     </div>
   `;
